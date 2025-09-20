@@ -1,8 +1,8 @@
-# crazy_pass
+# Crazy Pass
 Veja como uma função simples escrita em Python pode gerar senhas seguras.
 
 # Entendendo a lógica do crazy_pass
-O pass_crazy é observa três pilares para geração de senhas seguras, são eles:
+O crazy_pass é observa três pilares para geração de senhas seguras, são eles:
 
 * Tamanho da senha
 * teste
@@ -11,3 +11,7 @@ O pass_crazy é observa três pilares para geração de senhas seguras, são ele
 ## Tamanho da senha (duração)
 ## teste
 ## teste
+
+# Exemplo de saída
+
+# Como executar
