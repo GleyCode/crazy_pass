@@ -1,35 +1,35 @@
 # TODO: Trocar o módulo random por secrets, que é o módulo especilizado para 
 # geração de números aleátorios seguros.
-
-
 from random import randrange
-import caracteres_senha as caractere
+from sys import argv
+
+
+TAM_MINIMO = 8
+TAM_MAXIMO = 16
+
+
+caracteres = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
+              'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'w', 'y', 'z', 
+              'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
+              'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'W', 'Y', 'Z', 
+              '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '@', '%', '#', 
+              '&', '$', '!')
 
 
 def gerar_senha_segura(tam_senha=16):
-    """A função tem um objetivo claro, gerar senhas seguras. Para essa função, 
-    senhas seguras são as que atendem algums requisitos, são eles:
-    - Deve ter letras maiúsculas e minúsculas
-    - Deve ter números
-    - Deve ter caracteres especiais
-    - Deve ter no mínimo 8 (oito) caracteres e no maxímo 16
-    - Não pode ter sequências, como '123' e nem repetição de sequências, como 
-    'xn#nxn#n'
+    """Gera senhas seguras de 8 e 16 caracteres."""
 
-    Return:
-    Retorna uma string (texto)
-    """
-
-    senha_segura = ""
-    
-    TAM_MINIMO = 8
-    TAM_MAXIMO = 16
+    senha = ""
 
     if tam_senha == TAM_MINIMO or tam_senha == TAM_MAXIMO:
-        intervalo = len(caractere.caracteres)
-        while len(senha_segura) <= tam_senha:
-            num_aleatorio = randrange(intervalo)
-            senha_segura += caractere.caracteres[num_aleatorio]
-        return senha_segura 
-    else:
-        return
+        intervalo_index = len(caracteres)
+
+        while len(senha) <= tam_senha:
+            index = randrange(intervalo_index)
+            senha += caracteres[index]    
+
+    return senha
+
+
+senha_segura = gerar_senha_segura(int(argv[1]))
+print(senha_segura)
