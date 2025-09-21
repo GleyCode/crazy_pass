@@ -20,3 +20,7 @@ O crazy_pass observa três pilares para geração de senhas seguras.
 ~~~shell
 git clone https://github.com/GleyCode/crazy_pass.git
 ~~~
+2. Execute o módulo principal
+~~~shell
+python3 executar.py
+~~~
