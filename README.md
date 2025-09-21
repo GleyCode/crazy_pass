@@ -6,7 +6,7 @@ O **crazy_pass** observa três pilares para geração de senhas seguras.
 
 * Duração da senha
 * Entropia
-* Conjunto de caraceres
+* Conjunto de caracteres
 
 ## Duração da senha
 As senhas atualmente seguem um padrão de duração longa. Duração é o tamanho da senha definido pelo utilizador de
