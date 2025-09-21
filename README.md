@@ -17,4 +17,6 @@ O crazy_pass observa três pilares para geração de senhas seguras.
 # Como executar
 
 1. Clone o repositório do projeto.
+~~~shell
 git clone https://github.com/GleyCode/crazy_pass.git
+~~~
