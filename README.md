@@ -1,8 +1,8 @@
-# `crazy_pass`
+# crazy_pass
 Veja como uma função simples escrita em Python pode gerar senhas seguras.
 
-# Entendendo a lógica do `crazy_pass`
-O crazy_pass observa três pilares para geração de senhas seguras.
+# Entendendo a lógica do **crazy_pass**
+O **crazy_pass** observa três pilares para geração de senhas seguras.
 
 * Tamanho da senha
 * teste
@@ -12,15 +12,14 @@ O crazy_pass observa três pilares para geração de senhas seguras.
 ## teste
 ## teste
 
+
 # Exemplo de saída
-Abaixo é possível ver dois exemplos de saída para o `crazy_pass`.
+Abaixo é possível ver dois exemplos de saída para o **crazy_pass**.
 
 Tamanho | Resultado
 :--------:|-----------
 8       | iQJrWGFdUgxu5$HhI
 16      | buL@p1Xsb
-
-
 
 
 # Como executar
@@ -38,4 +37,3 @@ python executar.py 16
 # Gera uma senha de 16 caracteres
 python executar.py 8
 ~~~
-
