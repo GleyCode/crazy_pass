@@ -13,12 +13,14 @@ O crazy_pass observa três pilares para geração de senhas seguras.
 ## teste
 
 # Exemplo de saída
-Este 
+Abaixo é possível ver dois exemplos de saída para o `crazy_pass`.
 
 Tamanho | Resultado
 --------|-----------
 8       | iQJrWGFdUgxu5$HhI
 16      | buL@p1Xsb
+
+
 
 
 # Como executar
