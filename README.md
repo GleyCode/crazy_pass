@@ -1,8 +1,8 @@
 # Crazy Pass
 Veja como uma função simples escrita em Python pode gerar senhas seguras.
 
-# Entendendo a lógica do crazy_pass
-O crazy_pass é observa três pilares para geração de senhas seguras, são eles:
+# Entendendo a lógica do `crazy_pass`
+O crazy_pass observa três pilares para geração de senhas seguras.
 
 * Tamanho da senha
 * teste
@@ -15,3 +15,6 @@ O crazy_pass é observa três pilares para geração de senhas seguras, são ele
 # Exemplo de saída
 
 # Como executar
+
+1. Clone o repositório do projeto.
+git clone https://github.com/GleyCode/crazy_pass.git
