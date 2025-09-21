@@ -1,9 +1,9 @@
 # TODO: Trocar o módulo random por secrets, que é o módulo especilizado para 
 # geração de números aleátorios seguros.
 
+
 from random import randrange
 import caracteres_senha as caractere
-
 
 
 def gerar_senha_segura(tam_senha=16):
@@ -21,6 +21,7 @@ def gerar_senha_segura(tam_senha=16):
     """
 
     senha_segura = ""
+    
     TAM_MINIMO = 8
     TAM_MAXIMO = 16
 
