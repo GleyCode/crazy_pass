@@ -17,7 +17,7 @@ O módulo **crazy_pass** define dois tipos de duração:
 8 caracteres e 16 caracteres.
 
 Se na execução do programa for informado um valor diferente para a duração, a função responsável por gerar a senha
-retornará `none`.
+retornará uma string vazia.
 
 ## Conjunto de caracteres
 O conjunto de caracteres é a base de dados que será usado para compor a senha. No caso do **crazy_pass** o 
@@ -25,7 +25,7 @@ tamanho é de 68 caracteres. Além disso é importante que o conjunto de caracte
 contendo letras maiúsculas, minúsculas, números e caracteres especiais.
 
 ## Entropia
-A entropia é um cálculo que determina o quão dificil é para um cibercriminoso quebrar a senha utilizando
+A entropia é o cálculo que determina o quão dificil é para um cibercriminoso quebrar a senha utilizando
 várias técnicas para isso.
 
 A formúla é a seguinte:
@@ -54,13 +54,13 @@ git clone https://github.com/GleyCode/crazy_pass.git
 2. Execute o módulo principal
 ~~~shell
 # Gera uma senha de 8 caracteres
-python executar.py 16
+python senha_segura.py 8
 ~~~
 ~~~shell
 # Gera uma senha de 16 caracteres
-python executar.py 8
+python senha_segura.py 16
 ~~~
 
 # ATENÇÃO!
 **crazy_pass** é um gerador de senha segura SIMPLES, portanto não conta com verificação de _unicidade_, ou seja,
-é plenamente possível que duas senhas iguais seja geradas em momentos diferentes.
+é plenamente possível que duas senhas iguais sejam geradas em momentos diferentes.
