@@ -5,9 +5,6 @@
 from random import randrange
 from sys import argv
 
-TAM_MINIMO = 8
-TAM_MAXIMO = 16
-
 caracteres = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
               'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'w', 'y', 'z', 
               'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
@@ -17,6 +14,9 @@ caracteres = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
 
 def gerar_senha_segura(tam_senha=16):
     """Gera senhas seguras de 8 e 16 caracteres."""
+
+    TAM_MINIMO = 8
+    TAM_MAXIMO = 16
 
     senha = ""
 
