@@ -41,8 +41,8 @@ Abaixo é possível ver dois exemplos de saída para o **crazy_pass**.
 
 Tamanho | Resultado
 :--------:|-----------
-8       | buL@p1Xsb
-16      | iQJrWGFdUgxu5$HhI
+8       | b7daiLinZ
+16      | RX!@!?#93,pJH9Ybj
 
 
 # Como executar
