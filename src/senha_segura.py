@@ -28,6 +28,7 @@ if __name__ == "__main__":
     try:
         senha_segura = gerar_senha_segura(int(argv[1]))
     except IndexError:
-        print("""O programa necessita do tamanho da senha para funcionar!\nPor favor, execute novamente.""")
+        print("O programa necessita do tamanho da senha para funcionar!")
+        print("Por favor, execute novamente.")
         exit()
     print(senha_segura)
