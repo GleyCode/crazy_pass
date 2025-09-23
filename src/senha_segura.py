@@ -10,7 +10,8 @@ conj_caracteres = string.ascii_letters + string.digits + string.punctuation
 
 def gerar_senha_segura(tam_senha=16):
     """Gera senhas seguras de 8 e 16 caracteres. Usando o módulo secrets para
-    gerar senhas com um nível de segurança superior se comparado com a geração de números pseudoaletorios com o módulo Random."""
+    gerar senhas com um nível de segurança superior se comparado com a geração 
+    de números pseudoaletorios com o módulo Random."""
 
     TAM_MINIMO = 8
     TAM_MAXIMO = 16
