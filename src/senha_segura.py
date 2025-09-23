@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 
 from sys import argv
-import string
+from string import ascii_letters, digits, punctuation
 import secrets
 
-
-conj_caracteres = string.ascii_letters + string.digits + string.punctuation
-
+CARACTERES = ascii_letters + digits + punctuation
 
 def gerar_senha_segura(tam_senha=16):
-    """Gera senhas seguras de 8 e 16 caracteres. Usando o módulo secrets para
-    gerar senhas com um nível de segurança superior se comparado com a geração 
-    de números pseudoaletorios com o módulo Random."""
+    """Gera senhas seguras de 8 e 16 caracteres utilizando o módulo secrets e 
+    string.
+    """
 
     TAM_MINIMO = 8
     TAM_MAXIMO = 16
@@ -20,7 +18,7 @@ def gerar_senha_segura(tam_senha=16):
 
     if tam_senha == TAM_MINIMO or tam_senha == TAM_MAXIMO:
         while len(senha) <= tam_senha:
-            senha += secrets.choice(conj_caracteres)    
+            senha += secrets.choice(CARACTERES)    
     return senha
 
 
