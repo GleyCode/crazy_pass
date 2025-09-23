@@ -23,7 +23,7 @@ def gerar_senha_segura(tam_senha=16):
     return senha
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     try:
         senha_segura = gerar_senha_segura(int(argv[1]))
     except IndexError:
