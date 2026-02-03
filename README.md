@@ -1,5 +1,5 @@
 # crazy_pass
-Veja como uma função simples escrita em Python pode gerar senhas seguras.
+Veja como um método simples escrito em Python pode gerar senhas seguras.
 
 # Entendendo a lógica do **crazy_pass**
 O **crazy_pass** observa três pilares para geração de senhas seguras.
@@ -16,7 +16,7 @@ comprometer a senhar por meio de técnicas como, força bruta, preenchimento de 
 O módulo **crazy_pass** define dois tipos de duração:
 8 caracteres e 16 caracteres.
 
-Se na execução do programa for informado um valor diferente para a duração, a função responsável por gerar a senha
+Se na execução do programa for informado um valor diferente para a duração, o método responsável por gerar a senha
 retornará uma string vazia.
 
 ## Conjunto de caracteres
